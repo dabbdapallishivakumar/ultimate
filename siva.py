@@ -1,8 +1,8 @@
-num = float(input("Enter a number: "))
-if num >= 0:
-   if num == 0:
-       print("Zero")
-   else:
-       print("Positive number")
-else:
-   print("Negative number")
+n=float(input("enter number"))
+if n>=0:
+   if n==0:
+      print("ZERo")
+      else:
+         print("POSITIVE")
+         else:
+            print("NEGATIVE")

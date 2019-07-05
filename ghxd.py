@@ -1,4 +1,9 @@
-def revstr(str):
-  return str[::-1]
-bow=input()
-print(revstr(bow),end=" ")
+i=int(input())
+if i==0:
+  s=1
+  print(s)
+elif i>0:
+  sum=1
+  for i in range(1,i+1):
+    sum=sum*i
+  print(sum)

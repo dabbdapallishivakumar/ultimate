@@ -1,6 +1,11 @@
-def my_function(x):
-  return x[::-1]
+def revnum(m):
+  rev=0
+  while m>0:
+    rem=m%10
+    rev=(rev*10)+rem
+    m=m//10
+  return rev
 
-mytxt = my_function("I wonder how this text looks like backwards")
-
-print(mytxt)
+a=int(input())
+rev=revnum(a)
+print(rev,end=" ")
